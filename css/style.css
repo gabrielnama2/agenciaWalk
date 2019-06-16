@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900');
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 70px;
+  color: white;
+  text-align: bottom;
+  background-image: url(banner.png);
+  background-size: 100%;
+  max-width: 100%;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: px;
+  padding-left: 100px;
+}
+
+.port{
+  position: relative;
+  top: 50px;
+}
+.banner{
+  position: relative;
+  background-image: url(banner1.png);
+  width: 100%;
+  background-size: 100%;
+}
+h5{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+.texto-img{
+  bottom: 30px;
+  font-size: 100px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0 auto;
+  width: 50%;
+  margin: 0 auto;
+}
+#creditos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  text-align: center;
+}
+#form{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  bottom: 0;
+  top: 100px;
+}
+.form-control{
+  text-align: center;
+  opacity: .5;
+}
+#gab{
+	font-size: 13px;
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 1101px) and (max-width: 1300px) {
+    h1 {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 65px;
+        color: white;
+        text-align: ;
+        background-image: url(banner.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        max-width: 100%;
+        height: 400px;
+        padding-top: 70px;
+        padding-bottom: 0;
+        padding-left: 180px;
+}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+    h1 {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 55px;
+        color: white;
+        text-align: ;
+        background-image: url(banner.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        max-width: 100%;
+        height: 300px;
+        padding-top: 70px;
+        padding-bottom: 0;
+        padding-left: 140px;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 800px) {
+    h1 {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 40px;
+        color: white;
+        text-align: ;
+        background-image: url(banner.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        max-width: 100%;
+        height: 300px;
+        padding-top: 80px;
+        padding-bottom: 0;
+        padding-left: 80px;
+}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 576px) {
+    h1 {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 30px;
+        color: white;
+        text-align: ;
+        background-image: url(banner.png);
+        background-size: 100%;
+        max-width: 100%;
+        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 0;
+        padding-left: 50px;
+}
+}
